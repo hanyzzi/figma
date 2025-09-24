@@ -1,0 +1,249 @@
+{
+    "typography": {
+      "heading": {
+        "h1": {
+          "value": {
+            "fontFamily": "Inter",
+            "fontWeight": "700",
+            "fontSize": "48px",
+            "lineHeight": "56px",
+            "letterSpacing": "-0.02em"
+          },
+          "type": "typography"
+        },
+        "h2": {
+          "value": {
+            "fontFamily": "Inter", 
+            "fontWeight": "600",
+            "fontSize": "36px",
+            "lineHeight": "44px",
+            "letterSpacing": "-0.01em"
+          },
+          "type": "typography"
+        },
+        "h3": {
+          "value": {
+            "fontFamily": "Inter",
+            "fontWeight": "600",
+            "fontSize": "28px",
+            "lineHeight": "36px",
+            "letterSpacing": "-0.01em"
+          },
+          "type": "typography"
+        },
+        "h4": {
+          "value": {
+            "fontFamily": "Inter",
+            "fontWeight": "600",
+            "fontSize": "24px",
+            "lineHeight": "32px",
+            "letterSpacing": "0"
+          },
+          "type": "typography"
+        },
+        "h5": {
+          "value": {
+            "fontFamily": "Inter",
+            "fontWeight": "600",
+            "fontSize": "20px",
+            "lineHeight": "28px",
+            "letterSpacing": "0"
+          },
+          "type": "typography"
+        },
+        "h6": {
+          "value": {
+            "fontFamily": "Inter",
+            "fontWeight": "600",
+            "fontSize": "18px",
+            "lineHeight": "26px",
+            "letterSpacing": "0"
+          },
+          "type": "typography"
+        }
+      },
+      "body": {
+        "xl": {
+          "value": {
+            "fontFamily": "Inter",
+            "fontWeight": "400",
+            "fontSize": "20px",
+            "lineHeight": "30px",
+            "letterSpacing": "0"
+          },
+          "type": "typography"
+        },
+        "large": {
+          "value": {
+            "fontFamily": "Inter",
+            "fontWeight": "400", 
+            "fontSize": "18px",
+            "lineHeight": "28px",
+            "letterSpacing": "0"
+          },
+          "type": "typography"
+        },
+        "medium": {
+          "value": {
+            "fontFamily": "Inter",
+            "fontWeight": "400",
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "letterSpacing": "0"
+          },
+          "type": "typography"
+        },
+        "small": {
+          "value": {
+            "fontFamily": "Inter",
+            "fontWeight": "400",
+            "fontSize": "14px",
+            "lineHeight": "20px",
+            "letterSpacing": "0"
+          },
+          "type": "typography"
+        },
+        "xs": {
+          "value": {
+            "fontFamily": "Inter",
+            "fontWeight": "400",
+            "fontSize": "12px",
+            "lineHeight": "16px",
+            "letterSpacing": "0.01em"
+          },
+          "type": "typography"
+        }
+      },
+      "caption": {
+        "large": {
+          "value": {
+            "fontFamily": "Inter",
+            "fontWeight": "500",
+            "fontSize": "14px",
+            "lineHeight": "18px",
+            "letterSpacing": "0.01em"
+          },
+          "type": "typography"
+        },
+        "medium": {
+          "value": {
+            "fontFamily": "Inter",
+            "fontWeight": "500",
+            "fontSize": "12px",
+            "lineHeight": "16px",
+            "letterSpacing": "0.01em"
+          },
+          "type": "typography"
+        },
+        "small": {
+          "value": {
+            "fontFamily": "Inter",
+            "fontWeight": "500",
+            "fontSize": "10px",
+            "lineHeight": "14px",
+            "letterSpacing": "0.02em"
+          },
+          "type": "typography"
+        }
+      },
+      "button": {
+        "large": {
+          "value": {
+            "fontFamily": "Inter",
+            "fontWeight": "600",
+            "fontSize": "16px",
+            "lineHeight": "20px",
+            "letterSpacing": "0"
+          },
+          "type": "typography"
+        },
+        "medium": {
+          "value": {
+            "fontFamily": "Inter",
+            "fontWeight": "600",
+            "fontSize": "14px",
+            "lineHeight": "18px",
+            "letterSpacing": "0"
+          },
+          "type": "typography"
+        },
+        "small": {
+          "value": {
+            "fontFamily": "Inter",
+            "fontWeight": "600",
+            "fontSize": "12px",
+            "lineHeight": "16px",
+            "letterSpacing": "0.01em"
+          },
+          "type": "typography"
+        }
+      },
+      "label": {
+        "large": {
+          "value": {
+            "fontFamily": "Inter",
+            "fontWeight": "500",
+            "fontSize": "16px",
+            "lineHeight": "20px",
+            "letterSpacing": "0"
+          },
+          "type": "typography"
+        },
+        "medium": {
+          "value": {
+            "fontFamily": "Inter",
+            "fontWeight": "500",
+            "fontSize": "14px",
+            "lineHeight": "18px",
+            "letterSpacing": "0"
+          },
+          "type": "typography"
+        },
+        "small": {
+          "value": {
+            "fontFamily": "Inter",
+            "fontWeight": "500",
+            "fontSize": "12px",
+            "lineHeight": "16px",
+            "letterSpacing": "0.01em"
+          },
+          "type": "typography"
+        }
+      },
+      "overline": {
+        "large": {
+          "value": {
+            "fontFamily": "Inter",
+            "fontWeight": "600",
+            "fontSize": "14px",
+            "lineHeight": "18px",
+            "letterSpacing": "0.08em",
+            "textTransform": "uppercase"
+          },
+          "type": "typography"
+        },
+        "medium": {
+          "value": {
+            "fontFamily": "Inter",
+            "fontWeight": "600",
+            "fontSize": "12px",
+            "lineHeight": "16px",
+            "letterSpacing": "0.08em",
+            "textTransform": "uppercase"
+          },
+          "type": "typography"
+        },
+        "small": {
+          "value": {
+            "fontFamily": "Inter",
+            "fontWeight": "600",
+            "fontSize": "10px",
+            "lineHeight": "14px",
+            "letterSpacing": "0.1em",
+            "textTransform": "uppercase"
+          },
+          "type": "typography"
+        }
+      }
+    }
+  }

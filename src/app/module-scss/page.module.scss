@@ -1,0 +1,341 @@
+// 디자인 토큰 import
+@import '../../../styles/tokens/variables';
+
+// Main Layout
+.main {
+  min-height: 100vh;
+  padding: $spacing-lg;
+  background-color: $color-background-white;
+}
+
+.container {
+  max-width: $layout-container-md;
+  margin: 0 auto;
+}
+
+// Header Section
+.header {
+  margin-bottom: $spacing-3xl;
+}
+
+.headerFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: $spacing-md;
+}
+
+.navLink {
+  padding: $inset-md $inset-lg;
+  background-color: $color-brand-secondary;
+  color: $color-text-primary;
+  text-decoration: none;
+  border-radius: $border-radius-md;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 600;
+  transition: opacity 0.2s ease;
+
+  &:hover {
+    opacity: $opacity-75;
+  }
+}
+
+.title {
+  font: $typography-heading-h1;
+  color: $color-text-primary;
+  margin-bottom: $spacing-md;
+}
+
+.subtitle {
+  font: $typography-body-large;
+  color: $color-text-secondary;
+}
+
+// Section Styles
+.section {
+  margin-bottom: $spacing-2xl;
+}
+
+.sectionTitle {
+  font: $typography-heading-h3;
+  color: $color-text-primary;
+  margin-bottom: $spacing-lg;
+}
+
+// Color Test Section
+.colorGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: $gap-md;
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.colorBox {
+  padding: $inset-md;
+  border-radius: $border-radius-lg;
+  text-align: center;
+}
+
+.colorLabel {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.primaryColor {
+  background-color: $color-brand-primary;
+  
+  .colorLabel {
+    color: $color-text-white;
+  }
+}
+
+.secondaryColor {
+  background-color: $color-brand-secondary;
+  
+  .colorLabel {
+    color: $color-text-primary;
+  }
+}
+
+.gray200 {
+  background-color: $color-grayscale-200;
+  
+  .colorLabel {
+    color: $color-text-primary;
+  }
+}
+
+.gray700 {
+  background-color: $color-grayscale-700;
+  
+  .colorLabel {
+    color: $color-text-white;
+  }
+}
+
+// Button Section
+.buttonContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $gap-md;
+}
+
+.button {
+  padding: $inset-md $inset-lg;
+  border: none;
+  border-radius: $border-radius-md;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+}
+
+.primaryButton {
+  background-color: $color-button-primary-bg;
+  color: $color-button-primary-text;
+  box-shadow: $shadow-sm;
+
+  &:hover:not(:disabled) {
+    background-color: $color-button-primary-hover;
+    box-shadow: $shadow-md;
+  }
+}
+
+.secondaryButton {
+  background-color: $color-button-secondary-bg;
+  color: $color-button-secondary-text;
+
+  &:hover:not(:disabled) {
+    background-color: $color-button-secondary-hover;
+  }
+}
+
+.disabledButton {
+  background-color: $color-button-disabled-bg;
+  color: $color-button-disabled-text;
+}
+
+// Card Section
+.cardGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: $gap-lg;
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.card {
+  padding: $inset-lg;
+  background-color: $color-background-white;
+  border: $border-width-thin solid $color-border-border-1;
+  border-radius: $border-radius-lg;
+  box-shadow: $shadow-md;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+
+  &:hover {
+    box-shadow: $shadow-lg;
+    transform: translateY(-2px);
+  }
+}
+
+.cardVariant {
+  border-color: $color-border-border-2;
+  border-radius: $border-radius-xl;
+  box-shadow: $shadow-sm;
+}
+
+.cardTitle {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  color: $color-text-primary;
+  margin-bottom: $stack-sm;
+}
+
+.cardContent {
+  font-size: 16px;
+  line-height: 24px;
+  color: $color-text-secondary;
+  margin-bottom: $stack-md;
+}
+
+.tagContainer {
+  display: flex;
+  gap: $gap-sm;
+}
+
+.tag {
+  padding: $inset-xs $inset-sm;
+  border-radius: $border-radius-sm;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+}
+
+.primaryTag {
+  background-color: $color-brand-primary-light;
+  color: $color-brand-primary;
+}
+
+.grayTag {
+  background-color: $color-grayscale-100;
+  color: $color-text-secondary;
+}
+
+.cardButton {
+  width: 100%;
+  padding: $inset-sm;
+  background-color: $color-brand-secondary;
+  color: $color-text-primary;
+  border: none;
+  border-radius: $border-radius-md;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+
+  &:hover {
+    opacity: $opacity-75;
+  }
+}
+
+// Typography Section
+.typographyContainer {
+  & > * {
+    margin-bottom: $stack-md;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.h1 {
+  font: $typography-heading-h1;
+  color: $color-text-primary;
+}
+
+.h2 {
+  font: $typography-heading-h2;
+  color: $color-text-primary;
+}
+
+.h3 {
+  font: $typography-heading-h3;
+  color: $color-text-primary;
+}
+
+.bodyXl {
+  font: $typography-body-xl;
+  color: $color-text-primary;
+}
+
+.bodyLarge {
+  font: $typography-body-large;
+  color: $color-text-secondary;
+}
+
+.bodyMedium {
+  font: $typography-body-medium;
+  color: $color-text-secondary;
+}
+
+.bodySmall {
+  font: $typography-body-small;
+  color: $color-text-tertiary;
+}
+
+.captionLarge {
+  font: $typography-caption-large;
+  color: $color-text-tertiary;
+}
+
+// Spacing Section
+.spacingContainer {
+  background-color: $color-grayscale-100;
+  padding: $inset-lg;
+  border-radius: $border-radius-lg;
+}
+
+.spacingBox {
+  background-color: $color-brand-primary-light;
+  border-radius: $border-radius-sm;
+  margin-bottom: $stack-sm;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.paddingXs {
+  padding: $inset-xs;
+}
+
+.paddingSm {
+  padding: $inset-sm;
+}
+
+.paddingMd {
+  padding: $inset-md;
+}
+
+.paddingLg {
+  padding: $inset-lg;
+}
+
+.paddingXl {
+  padding: $inset-xl;
+}
